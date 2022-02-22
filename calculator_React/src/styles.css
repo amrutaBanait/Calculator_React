@@ -13,6 +13,15 @@ body{
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
 
+.calculator-grid>button{
+    cursor:pointer;
+    font-size:2rem;
+    border:1px solid white;
+    outline:none;
+    background-color: rgba(255,255,255,.75);
+    
+}
+
 .span-two{
     grid-column: span 2;
 }
@@ -21,6 +30,12 @@ body{
     grid-column: 1/-1;
     background-color: rgba(0,0,0,0.75);
     display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding:.75rem;
+    word-wrap:break-word;
+    word-break:break-all;
 }
 .output .previous-opperand{
     color:rgba(255,255,255,.75);
