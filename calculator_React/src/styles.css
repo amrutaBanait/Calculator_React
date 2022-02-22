@@ -4,22 +4,27 @@
 
 body{
     margin:0;
-    background: linear-gradient(to-right, #00AAFF, #00FF6c);
+    background: linear-gradient(to-right, #083449, #20cc68);
 }
 .calculator-grid{
     display:grid;
     margin-top: 2rem;
+    justify-content: center;
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
 
-.calculator-grid>button{
+.calculator-grid > button{
     cursor:pointer;
     font-size:2rem;
     border:1px solid white;
     outline:none;
-    background-color: rgba(255,255,255,.75);
-    
+    background-color: red;
+
+}
+.calculator-grid > button:hover,
+.calculator-grid > button:focus{
+    background-color: blue; 
 }
 
 .span-two{
