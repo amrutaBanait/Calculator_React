@@ -4,7 +4,7 @@
   
   body {
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, yellow, lightgreen);
   }
   
   .calculator-grid {
@@ -20,7 +20,7 @@
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    background-color:red;
   }
   
   .calculator-grid > button:hover,
@@ -34,7 +34,7 @@
   
   .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: peru;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -45,7 +45,7 @@
   }
   
   .output .previous-operand {
-    color: rgba(255, 255, 255, .75);
+    color: black;
     font-size: 1.5rem;
   }
   
